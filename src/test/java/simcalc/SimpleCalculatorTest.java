@@ -8,9 +8,9 @@ public class SimpleCalculatorTest {
 
 	@Test
 	public void testadd() {
-		Simplecalculator calc = new Simplecalculator();
-		calc.add(10, 20);
-		assertEquals(30, calc.getResult());
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.sub(10, 20);
+		assertEquals(-10, calc.getResult());
 	}
 
 }
